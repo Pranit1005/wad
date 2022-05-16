@@ -1,0 +1,28 @@
+First Download Git bash
+
+Install it.
+
+login Github with ur account and create a new repository
+
+Now open CMD
+
+git config --global user.name "varunsonawane"
+
+git config --global user.email "varunsonawane23@gmail.com"
+
+(Now select a file path which u want to upload on github)
+
+cd "C:\Users\Varun Sonawane\Downloads\DSBDA OUTPUT"
+
+git init
+
+git add .
+
+git status
+
+git commit -m "Any text u want to add"
+
+(a site is given after creating a repo with a copy option )
+git remote add origin "https://github.com/varunsonawane/WAD-Practical-2a..git"
+
+git push -u origin master
